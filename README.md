@@ -1,23 +1,13 @@
-![Lemmatization](https://github.com/user-attachments/assets/ea45430b-ab14-47f5-b066-97ad3dbe72c4)![Tokenization](https://github.com/user-attachments/assets/dc42f546-1144-48f3-83ed-84ea27db947f)![NLTK](https://github.com/user-attachments/assets/83e52004-36d5-4918-b884-b705651788c7)![Python](https://github.com/user-attachments/assets/2c796bbb-cbfe-4c84-a033-fed95ab33655)NLP Text Processing Toolkit ✨
+NLP Text Processing Toolkit ✨
+
+
+![Lemmatization](https://github.com/user-attachments/assets/ea45430b-ab14-47f5-b066-97ad3dbe72c4)![Tokenization](https://github.com/user-attachments/assets/dc42f546-1144-48f3-83ed-84ea27db947f)![NLTK](https://github.com/user-attachments/assets/83e52004-36d5-4918-b884-b705651788c7)![Python](https://github.com/user-attachments/assets/2c796bbb-cbfe-4c84-a033-fed95ab33655)
 
 🌐 Project Overview
 
 Comprehensive NLTK-powered Natural Language Processing pipeline demonstrating tokenization, stop-word filtering, stemming, POS tagging, and lemmatization on real-world text corpora. Processes complex sentences with contractions, possessives, and domain-specific vocabulary achieving 100% token accuracy and 95%+ lemma precision through production-ready preprocessing functions.
 
 <div align="center">
-🎬 Processing Pipeline Animation
-
-graph LR
-    A[📄 Raw Text Input] --> B[🔪 Tokenization<br/>sent_tokenize() + word_tokenize()]
-    B --> C[🚫 Stop Words Removal<br/>english stopwords set]
-    C --> D[✂️ Stemming<br/>PorterStemmer]
-    D --> E[🏷️ POS Tagging<br/>averaged_perceptron_tagger]
-    E --> F[🍃 Lemmatization<br/>WordNetLemmatizer]
-    F --> G[✅ Clean Output Tokens]
-    
-    style A fill:#e1f5fe
-    style G fill:#c8e6c9
-</div> <div align="center">
 
 ![Uploadi<svg xmlns="http://www.w3.org/2000/svg" width="86" height="20" role="img" aria-label="Python: 3.8+"><title>Python: 3.8+</title><linearGradient id="s" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="r"><rect width="86" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#r)"><rect width="49" height="20" fill="#555"/><rect x="49" width="37" height="20" fill="#007ec6"/><rect width="86" height="20" fill="url(#s)"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110"><text aria-hidden="true" x="255" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="390">Python</text><text x="255" y="140" transform="scale(.1)" fill="#fff" textLength="390">Python</text><text aria-hidden="true" x="665" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="270">3.8+</text><text x="665" y="140" transform="scale(.1)" fill="#fff" textLength="270">3.8+</text></g></svg>ng Python.svg…]()
 ![Uplo<svg xmlns="http://www.w3.org/2000/svg" width="66" height="20" role="img" aria-label="NLTK: 3.8"><title>NLTK: 3.8</title><linearGradient id="s" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="r"><rect width="66" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#r)"><rect width="39" height="20" fill="#555"/><rect x="39" width="27" height="20" fill="#97ca00"/><rect width="66" height="20" fill="url(#s)"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110"><text aria-hidden="true" x="205" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="290">NLTK</text><text x="205" y="140" transform="scale(.1)" fill="#fff" textLength="290">NLTK</text><text aria-hidden="true" x="515" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="170">3.8</text><text x="515" y="140" transform="scale(.1)" fill="#fff" textLength="170">3.8</text></g></svg>ading NLTK.svg…]()
@@ -25,8 +15,6 @@ graph LR
 ![Upload<svg xmlns="http://www.w3.org/2000/svg" width="136" height="20" role="img" aria-label="Lemmatization: 95%+"><title>Lemmatization: 95%+</title><linearGradient id="s" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="r"><rect width="136" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#r)"><rect width="91" height="20" fill="#555"/><rect x="91" width="45" height="20" fill="purple"/><rect width="136" height="20" fill="url(#s)"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110"><text aria-hidden="true" x="465" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="810">Lemmatization</text><text x="465" y="140" transform="scale(.1)" fill="#fff" textLength="810">Lemmatization</text><text aria-hidden="true" x="1125" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="350">95%+</text><text x="1125" y="140" transform="scale(.1)" fill="#fff" textLength="350">95%+</text></g></svg>ing Lemmatization.svg…]()
 
 </div>
-🎥 Live Processing Demo
-<div align="center"> <img src="https://github.com/user/nlp-toolkit/assets/processing.gif" alt="NLP Processing Animation" width="600"/> **🔄 Real-time token → stem → lemma transformation** </div>
 
 
 ✨ Core Features
